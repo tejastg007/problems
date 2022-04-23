@@ -2,6 +2,7 @@
 //  pick the element and place it in the correct posstion. and move every large element to one place right side.
 //  the array is divied into sorted and non sorted parts. First, we pick the second elemt and compare it with previosu elemnts startin from immediate previous element. if the key elemnt is less than its immediate previous elemtn, continue to compare the key element with all previous elements one by one. Once the key elennt is less than the previous element but greater than the previous of previous, place it in between and all larger elememts than key to right place by one position,
 //  time complexity- o(n^2)
+// passes- n-1
 
 #include <bits/stdc++.h>
 using namespace std;
